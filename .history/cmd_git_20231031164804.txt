@@ -104,7 +104,6 @@ $ git fetch origin
 
 Git fetch cho phép CẬP NHẬT để xem điều gì đã thay đổi trên GitHub của bạn.
 Lệnh fetch (xác nhận nội dung thay đổi trong branch của remote repository) nhưng nội dung branch của local repository không bị thay đổi.
-
 16. Git merge: (merge kết hợp nhánh hiện tại, với một nhánh được chỉ định.)
 Di chuyển về branch cần hợp nhất bằng lệnh checkout.
 $ git checkout branch_mane1 (Nhánh nhận hợp nhất or nhánh hiện tại)
@@ -150,7 +149,6 @@ Tương đồng với merge nhưng có sự khác biệt như sau:
 
 Merge: Chỉ lấy nội dung commit cuối cùng của hai nhánh, tích hợp tạo thành commit mới. Các commit trước đó được giữ nguyên không thay đổi.
 Rebase: Lấy code từ branch_mane2, từ những commit ở branch_mane2 tích hợp đồng thời tái tạo lại commit mới ở branch_mane1 (Các commit đã tồn tại bị bỏ đi).
-
 21. Git revert:
 $ git revert <commit_id>
 
